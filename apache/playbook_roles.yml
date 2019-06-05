@@ -1,0 +1,7 @@
+---
+- name: Execute apache and security roles
+  hosts: all
+
+  roles:
+    - { role: apache }
+    - { role: security }
